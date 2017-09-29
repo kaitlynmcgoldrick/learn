@@ -1,15 +1,10 @@
-let result = 0
+var fs = require('fs');
+var buf = fs.readFile(process.argv[2], function(err, data){
+    var str = data.toString();
+    var count = str.split('\n').length - 1;
 
-for (let i = 2; i < process.argv.length; i++) {
-    result += Number(process.argv[i])
-}
+    console.log(count)  
+    
+    
+});
 
-
-console.log(result)  
-// let result = 0
-
-// for (let i = 2; i < process.argv.length; i++) {
-//   result += Number(process.argv[i])
-// }
-
-// console.log(result)
