@@ -1,0 +1,24 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "Install Node.js",
+  "main": "program.js",
+  "dependencies": {
+    "concat-stream": "^1.6.2",
+    "through2-map": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlynmcgoldrick/learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitlynmcgoldrick/learn/issues"
+  },
+  "homepage": "https://github.com/kaitlynmcgoldrick/learn#readme"
+}
